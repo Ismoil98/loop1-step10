@@ -1,0 +1,267 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, a, i, ol, li, ol, mark, p, strong, div, img {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+
+}
+
+.container {
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* header start */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.header-left {
+
+}
+
+.logo-link {
+
+}
+
+.logo-image {
+  width: 25px;
+  height: 60px;
+}
+
+.header-right {
+margin-top: 20px;
+}
+
+.header-links {
+  text-decoration: none;
+  margin-left: 30px;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(49, 48, 48, 0.6);
+}
+
+
+/* header end */
+
+
+
+/* hiro-section-1 start */
+
+.hiro-section-1 {
+margin-top: 30px;
+display: flex;
+justify-content: space-between;
+padding-bottom: 380px;
+position: relative;
+}
+
+.hiro-section-1-left {
+margin-top: 150px;
+}
+
+.hiro-name {
+font-style: normal;
+font-size: 40px;
+width: 400px;
+}
+
+.hiro-text {
+  width: 480px;
+  margin-top: 50px;
+  padding-left: 30px;
+  border:rgba(49, 48, 48, 0.6);
+  border-left-style: solid;
+  line-height: 24px;
+  color: rgba(49, 48, 48, 0.6);
+  margin-bottom: 40px;
+}
+
+.watch-info {
+background-color: rgb(238, 92, 92);
+text-decoration: none;
+color: #fff;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 15px;
+padding-right: 15px;
+font-style: normal;
+font-size: 14px;
+margin-bottom: 40px;
+}
+
+.watch-info:hover {
+  background-color: rgb(245, 48, 48);
+}
+
+.hiro-section-1-right {
+  width: 836px;
+  height: 804px;
+  background-image: url('../images/watches.jpg');
+  background-repeat: no-repeat;
+  background-size: 836px 804px;
+  position: absolute;
+  top: 0px;
+  left: calc(50% + 300px);
+}
+
+/* hiro-section-1 end */
+
+.border {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(49, 48, 48, 0.5);
+  margin-bottom: 30px;
+}
+
+/* hiro-section-2 start */
+
+.hiro-section-2 {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hiro-2-box {
+  width: 310px;
+  height: 40px;
+}
+
+.hiro-2-name {
+  font-style: normal;
+  font-size: 16px;
+}
+
+.hiro-2-text {
+  margin-top: 30px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.points {
+  display: flex;
+  margin-top: 10px;
+}
+
+.point {
+  margin-right: 10px;
+  margin-top: 10px;
+  width: 5px;
+  height: 5px;
+  background-color: rgba(49, 48, 48, 0.3);
+}
+
+.header-2-more {
+  display: flex;
+  margin-top: 20px;
+}
+
+.header-2-more:hover .line-more {
+  width: 60px;
+}
+
+.line-more {
+  background-color: rgb(238, 92, 92);
+  width: 40px;
+  height: 2px;
+  margin-top: 3px;
+  transition: width 0.5s ease;
+}
+
+.link-more {
+  margin-left: 15px;
+  color: rgb(238, 92, 92) ;
+  text-decoration: none;
+  font-style: bold;
+  font-size: 12px;
+}
+
+/* hiro-section-2 end */
+
+
+
+/* hiro-section-3 start */
+
+.hiro-section-3 {
+  display: flex;
+  margin-top: 300px;
+  padding-bottom: 40px;
+  position: relative;
+  justify-content: space-between;
+}
+
+.hiro-section-3-right {
+}
+
+.hiro-3-image {
+  width: 300px;
+  height: 500px;
+}
+
+/* hiro-section-3 end */
+
+/* about-section start  */
+
+.about-section {
+  background-image: url(../images/runners.jpg);
+  background-size: cover;
+  width: 100%;
+}
+
+.control {
+  padding-top: 159px;
+  padding-bottom: 200px;
+}
+
+.about-name {
+font-style: normal;
+font-size: 40px;
+width: 400px;
+color: white;
+}
+
+.about-text {
+  width: 480px;
+  margin-top: 50px;
+  padding-left: 30px;
+  border:rgb(255, 255, 255);
+  border-left-style: solid;
+  line-height: 24px;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.about-info {
+background-color: rgb(238, 92, 92);
+text-decoration: none;
+color: #fff;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 15px;
+padding-right: 15px;
+font-style: normal;
+font-size: 14px;
+}
+
+.about-info:hover {
+  background-color: rgb(245, 48, 48);
+}
+
+
+/* about-section end  */
